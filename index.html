@@ -1,0 +1,329 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6b9023af44.js" crossorigin="anonymous"></script>
+    <title>PORTFOLIO</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.png" alt="loading" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <!-- <hr class="line"> -->
+            <div class="header-text">
+                <h1>Hi, I'm <br><span>ROHIT KUMAR</span></h1>
+                <h2>FRONTEND DEVLOPER</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- <hr> -->
+    <!-- about section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/profile image.jpg" alt="loading">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>As a motivated and enthusiastic fresher, I bring a strong desire to contribute and learn in a
+                        professional environment. Eager to apply my educational background and passion for growth, I am
+                        seeking opportunities that align with my skills and aspirations.I aim to bring a fresh
+                        perspective and a strong work ethic to a dynamic team. My adaptability, coupled with a proactive
+                        approach, enables me to quickly grasp new concepts and collaborate effectively. I am excited to
+                        embark on a successful career journey, making meaningful contributions to a forward-thinking
+                        organization.
+                    <div class="details">
+                        <Div class="detail-left">
+                            <p>NAME: ROHIT KUMAR</p>
+                            <p>Degree: B-Tech</p>
+                            <p>Phone: +91 9664183143</p>
+                            <p>Address: AURANGABAD, BIHAR-824143 </p>
+
+                        </Div>
+                        <Div class="detail-right">
+                            <p>Birthday: 27-July-2002</p>
+                            <p>Experience: Freshers</p>
+                            <p>Email: rrkk824143@gmail.com</p>
+                        </Div>
+
+
+                    </div>
+
+                    <div class="tab-titles">
+                        <!-- <p class="tab-links">About</p> -->
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Projects')">Projects</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>HTML+CSS+JS</span><br>Desiging web interfaces</li>
+                            <li><span>REACT</span><br>Desiging web/App interfaces</li>
+                            <li><span>REACTNATIVE</span><br>Desiging App interfaces</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2020-2024</span><br>Bechlor of technology in computer Science And Engineering
+                                <br>9.06 CGPA
+                            </li>
+                            <li><span>2020- 12th pass </span><br>VIVEKANANDA VIP SCHOOL<br>76.8%</li>
+                            <li><span>2017- 10th paas</span><br>ARMY PUBLIC SCHOOL UDHAMPUR <br>8.8 CGPA</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Projects">
+                        <ul>
+                            <li><span>Portfolio</span><br>Created my portfolio using HTML, CSS, JS which shows my
+                                skills, personal details, achievements.</li>
+                            <li><span>Weather app</span><br>A Weather app made with react js which shows current
+                                temprature and weather conditions using an API</li>
+                            <li><span>Ecommerce website</span><br>Online shopping website created using Html, CSS, JS.
+                            </li>
+                            <li><span>Food Delivery App</span><br>Created a basic food delivery app 'Yumy'.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About section finish -->
+
+    <!-- skills -->
+
+    <div id="skills">
+        <div class="container">
+            <div class="sub-title">Skills</div>
+            <div class="row">
+                <div class="skill-left">
+                    <div class="container ">
+                        <p>HTML</p>
+                        <div class="skills-container">
+                            <div class="skills html">90%</div>
+                        </div>
+
+                        <p>CSS</p>
+                        <div class="skills-container">
+                            <div class="skills css">80%</div>
+                        </div>
+
+                        <p>JavaScript</p>
+                        <div class="skills-container">
+                            <div class="skills js">60%</div>
+                        </div>
+
+                        <p>C++</p>
+                        <div class="skills-container">
+                            <div class="skills c">60%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-right">
+                    <div class="container ">
+                        <p>Web Development</p>
+                        <div class="skills-container">
+                            <div class="skills Web-Development">90%</div>
+                        </div>
+
+                        <p>App Development</p>
+                        <div class="skills-container">
+                            <div class="skills App-Development">60%</div>
+                        </div>
+
+                        <p>REACT</p>
+                        <div class="skills-container">
+                            <div class="skills react">55%</div>
+                        </div>
+
+                        <p>REACTNATIVE</p>
+                        <div class="skills-container">
+                            <div class="skills reactnative">55%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- skills finished -->
+
+    <!-- project section  -->
+
+    <div id="project">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/project-1.png" alt="Loading">
+                    <div class="layer">
+                        <h3>PORTFOLIO</h3>
+                        <p>Created my portfolio using HTML, CSS, JS which shows my skills, personal details, achievements.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/project-2.png" alt="Loading">
+                    <div class="layer">
+                        <h3>WEATHER APP</h3>
+                        <p>A weather app made with react js which shows current temprature and weather conditions USING WEATHER Api</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/project-3.png" alt="Loading">
+                    <div class="layer">
+                        <h3>NETFLIX CLONE</h3>
+                        <p>Created front page of Netflix using HTML, CSS, JS.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/project-4.png" alt="Loading">
+                    <div class="layer">
+                        <h3>FOOD DELIVERY APP</h3>
+                        <p>Created a basic food delivery app 'Yumy'.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- project section finished -->
+
+
+    <!-- education  start -->
+    <div id="education">
+        <div class="container">
+            <h1 class="sub-title">Education</h1>
+            <div class="timeline edu-right">
+                <div class="containers right">
+                    <div class="content text">
+                        <p>2020-2024 </p>
+                        <h3>B.Tech in COMPUTER SCIENCE</h3>
+                        <p>SRM Institute of Science and Technology- 9.06 CGPA</p>
+                    </div>
+                </div>
+                <div class="containers right">
+                    <div class="content text">
+                        <p>2020 </p>
+                        <h3>12th Paassed</h3>
+                        <p>VIVEKANANDA VIP SCHOOL- 76.8%</p>
+                    </div>
+                </div>
+                <div class="containers right">
+                    <div class="content text">
+                        <p>2017 </p>
+                        <h3>10th passed</h3>
+                        <p>ARMY PUBLIC SCHOOL UDHAMPUR- 8.8 CGPA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- education finished -->
+
+
+        <!-- contact details -->
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact me</h1>
+                        <p><i class="fa-solid fa-envelope"></i> rrkk824143@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> 9664183143</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/rohit-kumar-455a45247/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/2002-Rohit" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100021148067317" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/i.rohit2707/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form action="/submit-to-google-sheet" name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your name" required>
+                            <input type="email" name="Email" placeholder="Email" required>
+                            <textarea name="Message" id="" cols="10" rows="6" placeholder="Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p><i class="fa-regular fa-copyright"></i> All Right Reservered by ROHIT KUMAR</p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <!-- javascript links -->
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+
+
+
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyEd-dVHO8w0wR2NSkgOOxynD2vJhPG9bWKlmBDOxJKUttKY4CFslebGRQIcIaJ6yhI/exec'
+            const form = document.forms['submit-to-google-sheet']
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => console.log('Success!', response))
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+</body>
+
+</html>

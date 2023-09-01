@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
     font-family: 'poppins', sans-serif;
-    box-sizing: border-box;
+    box-sizing: content-box;
+    /* box-sizing: border-box; */
 }
 
 html {
@@ -491,8 +492,8 @@ nav .fas {
 @media only screen and (max-width:600px) {
 
     .header-text {
-        margin-left: 20px;
-        margin-top: 100%;
+        margin-left: 50px;
+        margin-top: 50%;
         font-size: 16px;
     }
 

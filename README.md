@@ -1,2 +1,2 @@
 # portfolio
-https://portfolio-iam3.onrender.com
+https://portfolio-static-zeta.vercel.app/
